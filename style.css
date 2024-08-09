@@ -5,6 +5,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", Georgia, "Times New Roman", Times, serif;
+  scrollbar-width: thin;
+  scrollbar-color: #000000 hsl(0, 0%, 100%);
+  
+
+    
 }
 body{
     display: grid;
@@ -12,6 +17,8 @@ body{
     grid-template-columns: 1;
     background-color: rgb(175, 168, 168);
     overflow-x: hidden;
+    
+
     
 }
 #section1 {
@@ -473,5 +480,4 @@ text-decoration-line:none ;
   font-size: 85px;
   font-weight: 500;
   letter-spacing: -5px;
-
 }
